@@ -390,6 +390,7 @@ namespace Stashie
                 return;
             }
 
+            /*
             //Debug
             var dropdownMenu = _ingameState.ServerData.StashPanel.ViewAllStashPanel;
             if (dropdownMenu.IsVisible)
@@ -406,6 +407,7 @@ namespace Stashie
                     }
                 }
             }
+            */
 
             if (!Keyboard.IsKeyToggled(Settings.DropHotkey.Value) && Settings.RequireHotkey == true)
             {
